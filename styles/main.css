@@ -1,0 +1,82 @@
+.title {
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+}
+
+.fishlist {
+  border: 2px solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-weight: bold;
+  margin-bottom: 5px;
+  float: left;
+  width: 75%;
+
+}
+
+.fish {
+  font: 20px;
+  border: 2px solid;
+  margin: 2px;
+  padding: 20px;
+}
+
+
+.quotes {
+  border: 2px solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-weight: bold;
+  margin-bottom: 5px;
+  float: left;
+  width: 75%;
+}
+
+.quote {
+  font: 20px;
+  border: 2px solid;
+  margin: 2px;
+  padding: 20px;
+}
+
+.locations {
+  border: 2px solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-weight: bold;
+  float: left;
+  width: 75%;
+}
+
+.location {
+  font: 20px;
+  border: 2px solid;
+  margin: 2px;
+  padding: 20px;
+}
+
+.tanktips {
+float: right;
+width: 25%;
+height: 700px;
+border: 2px solid black;
+}
+
+.aside {
+  border: 2px solid;
+  position: absolute;
+  width: 250px;
+  top: 100px;
+  bottom: 30px;
+  right: 30px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.image > div {
+  height: 20%;
+}
